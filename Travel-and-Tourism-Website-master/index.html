@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Traveler's Choice</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+    <!--Ion Icons-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aldrich&display=swap"
+      rel="stylesheet"
+    />
+    <!--Our stylesheets-->
+    <link rel="stylesheet" href="./app/styles/header_styles.css" />
+    <link rel="stylesheet" href="./app/styles/main_styles.css" />
+    <link rel="stylesheet" href="./app/styles/footer_styles.css" />
+    <link rel="stylesheet" href="./app/styles/responsive_styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="nav-brand">
+            <a href="#">
+              <img src="./images/logo.jpeg" alt="TRAVELLER'S LOGO" />
+            </a>
+          </div>
+
+          <div class="menu-icons open">
+            <i class="icon ion-md-menu"></i>
+          </div>
+
+          <ul class="nav-list">
+            <div class="menu-icons close">
+              <i class="icon ion-md-close"></i>
+            </div>
+            <div class="nav-item">
+              <a href="#" class="nav-link current">Home</a>
+            </div>
+            <div class="nav-item">
+              <a href="#Trend" class="nav-link" >Trending Places</a>
+            </div>
+            <div class="nav-item">
+              <a href="#Rec" class="nav-link">Recommended Foods</a>
+            </div>
+            <div class="nav-item">
+              <a href="#Tours" class="nav-link" >Tours</a>
+            </div>
+            <div class="nav-item">
+              <a href="#Feedback" class="nav-link">Feedback</a>
+            </div>
+            <div class="nav-item">
+              <a href="#Contactus" class="nav-link" >Contact Us</a>
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Section-->
+    <!-- <main> -->
+      <section class="hero">
+        <div class="container">
+          <div class="main-message">
+            <h1 style="font-size: 82px; color: gold; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Traveller's Choice</h1>
+            <p style="font-size: 24px;">
+              Start your journey with travellers choice which offers you  the best trending places as per your preference...
+            </p>
+            <div class="cta">
+              <a href="#" class="btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+        <div class="tab-container">
+          <div class="tab-menu">
+            <ul>
+              <li><a href="#!" class="tab-a active-a" data-id="tab1">STAY</a></li>
+              <li><a href="#!" class="tab-a" data-id="tab2">Flight</a></li>
+              <li><a href="#!" class="tab-a" data-id="tab3">Car</a></li>
+            </ul>
+          </div>
+    
+          <div class="tab tab-active" data-id="tab1">
+            <form>
+              <input type="text" placeholder="Enter Your Destination" style="padding: 10px;">
+              <br>
+              <p>Starting Journey Date</p>
+              <input type="date" style="padding: 10px;">
+              <br>
+              <br>
+              <p><b>Where You Want To Stay</b></p>
+              <label for="MODEOFSTAY">
+                <input type = "radio" id="byFlight" name="transport">RESORTS
+                <input type = "radio" id="byFlight" name="transport">HOSTELS
+                <input type = "radio" id="byTrain" name="transport">5 STAR HOTELS
+                <br>
+                <br>
+              </label>
+              
+            </form>
+            <button type="submit" form="form1" value="Submit">Search</button>
+            
+          </div>
+    
+          <div class="tab" data-id="tab2">
+            <input type="text" placeholder="Starting Destination" style="padding: 10px ;">
+              <p>to</p>
+              <input type="text" placeholder="Ending Destination" style="padding: 10px;";>
+            
+          </div>
+    
+          <div class="tab" data-id="tab3">
+            <input type="text" placeholder="Starting place" style="padding: 10px;">
+              <p>to</p>
+              <input type="text" placeholder="Ending Place" style="padding: 10px;">
+            
+          </div>
+        <!-- </div>
+        
+        
+      </div> -->
+      <H1 id="Trend" style="font-size: 45px;text-align: center; ">
+            <u>FREQUENTLY VISITED PLACES OF OUR WEBSITE</u></H1>
+            <br>
+          <div class="tours-grid">
+            <!--Grid Item #1-->
+            <div class="tours-grid-item jaipur">
+              
+              <h2>JAIPUR</h2>
+              <p>
+                Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex.
+              </p>
+            </div>
+    
+            <!--Grid Item #2-->
+            <div class="tours-grid-item Himachal Pradesh">
+              <h2>Himachal Pradesh</h2>
+              <p>
+                Himachal Pradesh, situated in the north of India, is a tourist hotspot that draws visitors from across the globe. Himachal Pradesh tourism is  fast growing, contributing a huge share to the national income of the state. This boom in tourism has prompted the mushrooming of numerous hotels and resorts in Himachal Pradesh.
+              </p>
+            </div>
+            
+            <!--Grid Item #3-->
+            <div class="tours-grid-item goa">
+              <h2>Goa</h2>
+              <p>
+                The Sweet Water Lake is a fresh-water paradise that originates in natural hot springs from within the Goan jungle. The lagoon is surrounded by hills of greenery and coconut groves. Enjoy the spiritual atmosphere of the area and partake in one of the regular meditation sessions.National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries.
+              </p>
+            </div>
+            
+            <!--Grid Item #4-->
+            <div class="tours-grid-item kerla">
+              <h2>Kerala</h2>
+              <p>
+                a state on India's tropical Malabar Coast, has nearly 600km of Arabian Sea shoreline. It's known for its palm-lined beaches and backwaters, a network of canals. Inland are the Western Ghats, mountains whose slopes support tea, coffee and spice plantations as well as wildlife. National parks like Eravikulam and Periyar, plus Wayanad and other sanctuaries.
+              </p>
+            </div>
+            <!--Grid Item #5-->
+            <div class="tours-grid-item Ladakh">
+              <h2>Ladakh</h2>
+              <p>
+                The most popular tourist attraction in Ladakh, Pangong lake is an endorheic (landlocked) lake situated at 4350 meters. Also known as Pangong Tso it is 12 kilometres long and extends from India to Tibet. Almost 60% of Pangong Lake lies in the Tibetan Autonomous Region.A unique feature of the lake is that it does not remain blue throughout the year.
+              </p>
+            </div>
+
+            <section>
+              <h1>recommend</h1>
+            </section>
+    <!--Script to toggle the menu -->
+    <script src="./app/scripts/toggler.js" async defer></script>
+  </body>
+</html>
